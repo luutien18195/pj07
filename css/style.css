@@ -1,0 +1,355 @@
+
+
+
+/*---------------------- reset-CSS --------------------------*/
+*{
+	margin:0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+body{
+	background-color: #eaeaea;
+}
+@font-face{
+	font-family: duke;
+	src:url("../fonts/duke.woff");
+}
+@font-face{
+	font-family: vnpres-webfont;
+	src: url(../fonts/vnpres-webfont.woff);
+}
+h1{
+	margin:0;
+}
+
+a{
+	text-decoration: none;
+}
+.frame{
+	max-width:70%;
+	margin:0 auto;
+	
+}
+.frame1{
+	max-width: 90%;
+	margin:0 auto;
+
+}
+.frame2{
+	max-width: 100%;
+}
+.line{
+	width:100%;
+	height: 7px;
+	background-color: #030e18;
+	margin:20px 0;
+}
+.btn{
+	border:1px solid #fff;
+	color:#fff;
+	background-color: #34495e;
+	transition: all ease 0.3s;
+	border-radius: 3px;
+}
+.btn:hover{
+	color:#34495e;
+	border:1px solid #34495e;
+	background-color: #fff;
+}
+/*---------------------- start Header --------------------------*/
+.header{
+	width:100%;
+	height: auto;
+	border:1px solid #000;
+	background-image:url(../imgs/background03.jpg);
+	background-repeat: none;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+.header .wrap-minibar{
+	width:100%;
+	height: 35px;
+	background-color: #030e18;
+
+}
+.header .wrap-minibar .log-form{
+	width:100%;
+	height: 100%;
+}
+.header .wrap-minibar .log-form a{
+	color:#fff;
+	line-height: 35px;
+	margin-left: 20px;
+
+}
+.header .wrap-minibar .log-form .search{
+	display: inline-block;
+	float:right;
+	margin-right: 2%;
+	line-height: 35px;
+	position: relative;
+	width:25%;
+}
+.header .wrap-minibar .log-form .search::before,
+.header .wrap-minibar .log-form .search::affer{
+	clear:both;
+}
+.header .wrap-minibar .log-form input[type="search"]{
+	border-radius:2px;
+	border:1px solid #fff;
+	padding-left: 4px;
+	width:100%;
+	background-color: #f3f3f3;
+
+}
+.header .wrap-minibar .log-form a{
+	transition: all ease .2s;
+}
+.header .wrap-minibar .log-form a:hover{
+	color:#eaeaea;
+}
+.header .wrap-minibar .log-form i{
+	position:absolute;
+	font-size:20px;
+	cursor: pointer;
+	right:-7px;
+	top:8px;
+}
+
+.header .header-main{
+
+	width:100%;
+	height: auto;
+}
+	.header .header-main nav{
+		width:100%;
+		height: 60px;
+	}
+	.header .header-main nav ul{
+		width:80%;
+		height: 100%;
+		margin:10px auto;
+		border:1px solid #eaeaea;
+		text-align: center;
+		border-radius: 4px;
+		box-shadow: 1px 1px 20px 3px #000;
+		opacity: 0.8;
+		background-color: #000;
+	}
+	.header .header-main nav ul li{
+		list-style: none;
+		display:inline-block;
+		line-height: 60px;
+
+		transition: all ease 0.3s;
+	}
+	.header .header-main nav ul li a{
+		color:#fff;
+		cursor: pointer;
+		transition:all ease 0.2s;
+		display: inline-block;
+		width:110px;
+		border-radius: 3px;
+	}
+	.header .header-main nav ul li a:hover{
+		color:#eaeaea;
+
+		text-shadow: 1px 6px 9px #000;
+		box-shadow: 1px 1px 20px 3px #000;
+	}
+
+	.respon-nav::before,
+	.respon-nav::after{
+		content:"";
+		clear:both;
+	}
+	.header .respon-nav{
+		float:right;
+		color:#fff;
+		position: relative;
+		width:50px;
+		height: 50px;
+		text-align: center;
+		top:50%;
+
+		margin-top:5px;
+		display: none;
+
+	}
+	.header .respon-nav .bg{
+		background-color: #000;
+		opacity: .4;
+		width: 100%;
+		height: 100%;
+		border-radius: 4px;
+	}
+	.header .log-form .respon-nav i{
+		font-size:40px;
+		cursor: pointer;
+		transition: all ease .2s;
+		position: absolute;
+		top:5.5px;
+		left: -7px;
+	}
+	.header .respon-nav i:hover{
+		color: #CBD2DA;
+	}
+
+
+
+
+
+	.header .header-main .header-main-content{
+		text-align: center;
+		margin:150px 0;
+	}
+	.header .header-main .header-main-content .title{
+		color:#fff;
+		font-family:vnpres-webfont;
+		font-size:40px;
+	}
+	.header .header-main .header-main-content .ctn{
+		width:50%;
+		height: 25%;
+		margin:10px auto;
+	}
+	.header .header-main .header-main-content .ctn p{
+		color:#fff;
+		font-family:vnpres-webfont;
+		font-size:19px;
+	}
+
+/*---------------------- end Header --------------------------*/
+
+/*---------------------- start main-content --------------------------*/
+.main-content{
+	width:100%;
+	height:auto;
+	background-color:#eaeaea;
+}
+	.main-content  label{
+		display: block;
+		font-family: vnpres-webfont;
+		font-size:32px;
+		margin-bottom: 10px;
+	}
+	.main-content span{
+		height: 60px;
+		color:#65777b;
+		font-style: italic;
+	}
+	.main-content .grid-wrap{
+		width:100%;
+		height: auto;
+		margin: 50px 0;
+		padding: 10px 0;
+
+	}
+	.main-content .grid-wrap .box{
+		width:232px;
+		height: 280px;
+		box-shadow:0px 0px 7px 2px #858c8c;
+		cursor: pointer;
+		background-color: #030E18;
+		border-radius: 4px;
+		margin:10px 10px;
+		display:inline-block;
+		text-align:justify;
+		overflow: hidden;
+		transition: all ease 0.3s;
+	}
+	.main-content .grid-wrap .box:hover{
+		box-shadow:0px 0px 14px 2px #000;
+
+	}
+	.main-content .grid-wrap .box .img{
+		width: 100%;
+		height: 192px;
+		background-color: #fff;
+	}
+	.main-content .grid-wrap .box .img img{
+		width:235px;
+		height: 192px;
+	}
+	.main-content .grid-wrap .box h2{
+		font-size: 20px;
+		margin:10px 5px;
+		color:#eaeaea;
+		font-family:vnpres-webfont ;
+		line-height: 70px;
+	}
+/*---------------------- end main-content --------------------------*/
+
+/*---------------------- start footer --------------------------*/
+.footer{
+	width:100%;
+	height: auto;
+	background-color: #fff;
+}
+	.footer .footer-bg{
+		width:100%;
+		height:auto;
+		background-image: url("../imgs/background03.jpg");
+		background-size: cover;
+		background-position: center center;
+		background-attachment: fixed;
+		position: relative;
+	}
+		.footer .footer-bg .shadow{
+			width:100%;
+			height: 100%;
+			background-color: #1a232f;
+			opacity: 0.7;
+			position: absolute;
+			z-index: 1;
+		}
+		.footer .footer-bg .content{
+			z-index:999;
+			width:100%;
+			height: auto;
+			position: relative;
+			padding:20px 0;
+			text-align: center;
+		}
+			.footer .footer-bg .content h1{
+				color:#fff;
+				font-family: vnpres-webfont;
+				font-size: 55px;
+				margin:20px 0;
+			}
+			.footer .footer-bg .content p{
+				color:#fff;
+				font-family: vnpres-webfont;
+				font-size: 20px;
+			}
+			.footer .footer-bg .content button{
+				width:100px;
+				height: 40px;
+				margin:20px 0;
+			}
+			.footer .footer-bg .content nav{
+				margin-top:90px;
+			}
+				.footer .footer-bg .content nav ul{
+
+				}
+				.footer .footer-bg .content nav ul li{
+					list-style: none;
+					display: inline-block;
+					width: 50px;
+				}
+
+	.footer .footer-link{
+		width:100%;
+		height: auto;
+		background-color:#030E18;
+		text-align: center;
+	}
+		.footer .footer-link p{
+			color:#fff;
+			height: 32px;
+			line-height: 32px;
+
+		}
+/*---------------------- end footer --------------------------*/

@@ -1,0 +1,124 @@
+
+/*-----------LapTop 1366+1280px------------*/
+@media screen and (max-width: 1366px) {
+  .main-content .grid-wrap .box {
+		width:200px;
+    height: 265px;
+	}
+}
+
+/*-----------LapTop 1224px------------*/
+@media screen and (max-width: 1224px) {
+  .frame {
+		max-width: 85%;
+	}
+}
+/*-----------tablet 1024x768px------------*/
+@media screen and (max-width: 1024px) {
+  .frame{
+    max-width:95%;
+    padding:0 10px;
+  }
+  .header .header-main .header-main-content .ctn{
+    width: 65%;
+  }
+  .header .header-main nav ul{
+      width:100%;
+      margin:0;
+      border:none;
+    }
+    .header .header-main nav ul li a{
+      width: 102px;
+      text-align: center;
+    }
+}
+/*-----------tablet 720x960px------------*/
+@media screen and (max-width: 720px) {
+  .frame{
+    max-width:100%;
+
+  }
+  .header .header-main .header-main-content .ctn{
+    width: 80%;
+  }
+}
+/*-----------tablet 660x960px------------*/
+@media screen and (max-width: 660px) {
+  .main-content .grid-wrap {
+    text-align:center;
+  }
+  .header .header-main .header-main-content .ctn{
+    width: 100%;
+  }
+  .header .respon-nav{
+    display: block;
+  }
+  .header .wrap-minibar {
+    position: fixed;
+    top:0;
+    left: 0;
+    box-shadow: 3px 0 20px 7px #000;
+  }
+  .header .wrap-minibar .log-form{
+    text-align: center;
+  }
+  .header .wrap-minibar .log-form a{
+    line-height: 60px;
+  }
+  .header .wrap-minibar .log-form .search{
+    display: none;
+  }
+  .header .header-main nav{
+    display: none;
+    position: fixed;
+    top:60px;
+    right:0;
+    width:55%;
+    height: 100%;
+
+  }
+  .header .header-main nav >ul{
+    text-align: left;
+    opacity: .9;
+    z-index: 9999999999;
+  }
+  .header .wrap-minibar{
+    height: 60px;
+  }
+  .header .header-main nav >ul >li{
+    display: block;
+    text-align: center;
+  }
+  .header .header-main nav >ul >li >a:hover{
+    background-color: #37373b;
+  }
+  .footer{
+    z-index: -9999;
+  }
+}
+
+/*----------- gg nexus6 414x732px ------------*/
+@media screen and (max-width: 414px) {
+  .main-content .grid-wrap .box {
+		width:235px;
+    height: 280px;
+	}
+
+}
+@media screen and (max-width: 375px) {
+  .mod-ctn{
+		width:100%;
+    left:53%;
+	}
+}
+@media screen and (max-width: 356px) {
+  .mod-ctn{
+    left:62%;
+	}
+  .header .respon-nav{
+    float:left;
+  }
+  .frame, .frame1{
+    width:320px;
+  }
+}

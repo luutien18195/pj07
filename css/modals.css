@@ -1,0 +1,71 @@
+.modals{
+	display:none;
+}
+.mod-opc{
+	background-color: #000;
+	opacity: 0.3;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+.mod-ctn{
+	width: 400px;
+	height: 500px;
+	position: fixed;
+	background-color: #fff;
+	top:15%;
+	left:50%;
+	margin-left:-200px;
+	border-radius: 3px;
+	text-align: justify;
+	z-index: 9999;
+	animation-name:action;
+	animation-duration: 1s;
+
+}
+@keyframes action{
+
+	0%{ top:0% }
+	50%{top: 20%}
+	100%{top: 15%}
+}
+.mod-title{
+	margin:45px 0;
+	color:#34495e;
+}
+.mod-row{
+	margin:5px 35px;
+}
+input{
+	border-radius: 2px;
+	border:1px solid #000;
+	padding:4px 10px;
+}
+.mod-row span{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.cls{
+	cursor: pointer;
+	width:20px;
+	height: 20px;
+	text-align: center;
+	font-size:20px;
+	position: absolute;
+	top:0px;
+	right:0px;
+	display:block;
+	color:#966262;
+	font-family:vnpres-webfont;
+	font-weight: bold;
+}
+.cls:hover{
+	color:red;
+}
+#btn-log,
+#btn-cre{
+	margin:20px 0;
+	width: 70px;
+	height: 36px;
+
+}
